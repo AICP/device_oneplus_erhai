@@ -34,6 +34,11 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSystemUIResTarget
 
+# Regional properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24926/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24926/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.default.prop
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
