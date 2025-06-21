@@ -16,6 +16,10 @@ TARGET_SCREEN_WIDTH := 2400
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
+# Overlays
+PRODUCT_PACKAGES += \
+    OPlusFrameworksResTarget
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
