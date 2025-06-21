@@ -1,0 +1,31 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+
+# Inherit from erhai device
+$(call inherit-product, device/oneplus/erhai/device.mk)
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+
+PRODUCT_NAME := lineage_erhai
+PRODUCT_DEVICE := erhai
+PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := OPD2415
+PRODUCT_CHARACTERISTICS := tablet
+
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="OPD2415EEA-user 15 AP3A.240617.008 V.R4T3.1e2e5ff-1_1 release-keys" \
+    BuildFingerprint=OnePlus/OPD2415EEA/OP6190L1:15/AP3A.240617.008/V.R4T3.1e2e5ff-1_1:user/release-keys \
+    DeviceName=OP6190L1 \
+    DeviceProduct=OPD2415 \
+    SystemDevice=OP6190L1 \
+    SystemName=OPD2415

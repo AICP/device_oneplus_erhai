@@ -1,0 +1,16 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Include the common OEM chipset BoardConfig.
+include device/oneplus/sm8750-common/BoardConfigCommon.mk
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OP615EL1,OP6190L1
+
+# Display
+TARGET_SCREEN_DENSITY := 420
+
+# Include the proprietary files BoardConfig.
+include vendor/oneplus/erhai/BoardConfigVendor.mk
