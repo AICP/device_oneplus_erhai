@@ -16,6 +16,10 @@ TARGET_SCREEN_WIDTH := 2400
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
+# Hardware
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget
