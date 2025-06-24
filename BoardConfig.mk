@@ -12,5 +12,8 @@ TARGET_OTA_ASSERT_DEVICE := OP615EL1,OP6190L1
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Recovery
+TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := ROTATION_RIGHT
+
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/erhai/BoardConfigVendor.mk
