@@ -1,0 +1,139 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from OnePlus Pad 3 (OPD2415_15.0.1.500(EX01)).
+
+# ACDB
+odm/etc/acdbdata/sia/acdb_cal.acdb
+odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
+odm/etc/acdbdata/up_ve_enpuv5_ha.eai
+odm/etc/acdbdata/up_ve_enpuv5_hh.eai
+
+# Audio configs
+odm/etc/mixer_paths.xml
+odm/etc/resourcemanager.xml
+odm/etc/usecaseKvManager.xml
+
+# Audio firmware
+odm/firmware/aw882xx_acf.bin
+
+# Audio params
+odm/etc/oprec_audrec_params/oprec_audrec_config.txt
+
+# Camera
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/erhaifront
+odm/etc/camera/config/erhaimain
+odm/etc/camera/config/oplus_camera_algo_switch_config
+odm/etc/camera/config/oplus_camera_algo_traversal_config.json
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_camera_preview_decision_config.json
+odm/etc/camera/config/oplus_preview_decision_params.json
+odm/etc/camera/config/quick_visibility_white_list
+odm/etc/camera/config/video_beauty_default_config
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/camera_engmode.xml
+odm/etc/camera/settings_fdc.txt
+odm/etc/camera/settings_fdc_lite.txt
+
+# Charger firmware
+odm/firmware/fastchg/charging_thermal_config_default.txt
+
+# Display calibration data
+odm/etc/display/qdcm_calib_data_XN242_p_d_dsc_video_mode_panel.json
+
+# Display configurations
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_1_100nit.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_1_2nit.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_1_max.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_2_100nit.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_2_2nit.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_2_max.odf
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Cinema_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Cinema_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Cinema_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EP3_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EP3_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EP3_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_EsRGB_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_HS
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_LsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_LsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_LsRGB_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Nature_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Nature_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Nature_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Vivid_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Vivid_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_Vivid_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Cinema_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Cinema_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Cinema_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EP3_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EP3_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EP3_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_EsRGB_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_HS
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_LsRGB_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_LsRGB_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_LsRGB_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Nature_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Nature_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Nature_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_100nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_2nits_pGC.txt
+odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_pGC.txt
+vendor/etc/displayconfig/display_id_4630946983774026899.xml
+vendor/etc/ltm_config_XN242_p_d_dsc_video_mode_panel.xml
+
+# NVRAM
+odm/bin/nvram_qmi
+odm/bin/nvram_server
+odm/etc/init/init.nvram.rc
+odm/lib64/libnvram.so
+
+# Pogo pin keyboard firmware
+odm/firmware/POGOPIN_KB.bin
+
+# Sensors
+vendor/lib64/sensors.qsh.so
+
+# Sensors config
+odm/etc/sensor/config/json_list
+odm/etc/sensor/config/pakala_bu52053nvx_0.json
+odm/etc/sensor/config/pakala_mtp_alsps.json
+odm/etc/sensor/config/pakala_mtp_alsps_hw_stk3b6x.json
+odm/etc/sensor/config/pakala_mtp_bmi3x0_0.json
+odm/etc/sensor/config/pakala_mtp_freefall.json
+odm/etc/sensor/config/pakala_mtp_motion_recognition.json
+odm/etc/sensor/config/pakala_mtp_mxg4300_0.json
+odm/etc/sensor/config/sns_gyro_cal.json
+odm/etc/sensor/sensor_config.json
+vendor/etc/sensors/config/json.lst
+vendor/etc/sensors/config/qsh_camera_common.json
+vendor/etc/sensors/config/qsh_camera_imx480_3.json
+vendor/etc/sensors/config/qsh_camera_imx615_3.json
+vendor/etc/sensors/config/qsh_camera_imx688_6.json
+vendor/etc/sensors/config/qsh_camera_imx688_6_actuator.json
+vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
+
+# Touchscreen firmware
+odm/firmware/tp/24924/FW_NT36536_HUAXING.img
+odm/firmware/tp/24924/FW_NT36536_HUAXING_FAE.img
+odm/firmware/tp/24924/FW_NT36536_HUAXING_TEST.bin
+odm/firmware/tp/24924/LIMIT_NT36536_HUAXING.img
+odm/firmware/tp/24924/sys_touch_scene_config.xml
+
+# WiFi
+odm/etc/wifi/peach/bdwlan.elf
+odm/etc/wifi/peach/regdb.bin
+odm/etc/wifi/peach/regdb_version
+
+# Wireless pen firmware
+odm/firmware/wireless_pen/24976/cps8601_firmware.bin
+
+# vi:ft=conf
