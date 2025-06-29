@@ -17,6 +17,9 @@ TARGET_OTA_ASSERT_DEVICE := OP615EL1,OP6190L1
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
