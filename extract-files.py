@@ -17,13 +17,48 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'hardware/oplus',
     'hardware/qcom-caf/sm8750',
     'vendor/oneplus/sm8750-common',
+    'vendor/qcom/opensource/commonsys-intf/display',
 ]
 
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/nvram_server': blob_fixup()
         .binary_regex_replace(b'vendor.oplus.caihong.serialno', b'ro.boot.chipid' + 15 * b'\x00'),
+    'odm/etc/init/init.camera_process.rc': blob_fixup()
+        .regex_replace('    delete_recursion', '    #delete_recursion'),
+    'odm/lib64/libAlgoProcess.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V6-ndk.so'),
+    (
+        'odm/lib64/libAncHumanSegFigureFusion.so',
+        'odm/lib64/libEIS.so',
+        'odm/lib64/libHIS.so',
+        'odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so',
+        'odm/lib64/libOPAlgoCamAiUnifySkin.so',
+        'odm/lib64/libOPAlgoCamFaceBeautyCap.so',
+    ): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_acquire')
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_lockPlanes')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+    'odm/lib64/libarcsoft_high_dynamic_range_v4.so': blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
+        .clear_symbol_version('remote_register_buf_attr')
+        .clear_symbol_version('remote_register_buf'),
+    (
+        'vendor/lib64/camera/components/com.qti.node.dewarp.so',
+        'vendor/lib64/hw/com.qti.chi.override.so',
+        'vendor/lib64/libcamximageformatutils.so',
+        'vendor/lib64/libchifeature2.so',
+        'vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so',
+    ): blob_fixup()
+        .replace_needed('android.hardware.graphics.allocator-V1-ndk.so', 'android.hardware.graphics.allocator-V2-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
