@@ -20,9 +20,6 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_ERHAI_DTB=y OPLUS_WIFI_ONLY=true
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
