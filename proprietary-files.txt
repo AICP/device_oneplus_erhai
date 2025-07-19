@@ -1278,6 +1278,14 @@ odm/bin/nvram_server
 odm/etc/init/init.nvram.rc
 odm/lib64/libnvram.so
 
+# Pogo pin keyboard
+odm/bin/hw/vendor.oplus.hardware.pogo_keyboard-service
+odm/etc/init/vendor.oplus.hardware.pogo_keyboard-service.rc
+odm/etc/vintf/manifest/vendor.oplus.hardware.pogo_keyboard.xml
+odm/lib64/libpogo_keyboard.so
+odm/lib64/vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform.so
+odm/usr/idc/pogo_touchpad.idc
+
 # Pogo pin keyboard firmware
 odm/firmware/POGOPIN_KB.bin
 
