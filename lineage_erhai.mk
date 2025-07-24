@@ -23,8 +23,8 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 15 AP3A.240617.008 1749465902132 release-keys" \
-    BuildFingerprint=OnePlus/OPD2415EEA/OP6190L1:15/AP3A.240617.008/V.R4T3.1e2e5ff-1_1:user/release-keys \
+    BuildDesc="qssi_64-user 15 AP3A.240617.008 1751634509119 release-keys" \
+    BuildFingerprint=OnePlus/OPD2415EEA/OP6190L1:15/AP3A.240617.008/V.R4T3.1e8f0ac-4471-2358e:user/release-keys \
     DeviceName=OP6190L1 \
     DeviceProduct=OPD2415 \
     SystemDevice=OP6190L1 \
