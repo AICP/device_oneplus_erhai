@@ -164,21 +164,21 @@
         <point>100,0</point>
     #else /* OPLUS_BUG_STABILITY */ -->
         <point>1,-7000</point>
-        <point>5,-5400</point>
-        <point>10,-4400</point>
-        <point>15,-3600</point>
-        <point>20,-3050</point>
-        <point>25,-2700</point>
-        <point>30,-2400</point>
-        <point>35,-2100</point>
-        <point>40,-1800</point>
-        <point>45,-1550</point>
-        <point>50,-1300</point>
-        <point>55,-1100</point>
-        <point>60,-850</point>
-        <point>65,-650</point>
-        <point>70,-450</point>
-        <point>75,-200</point>
+        <point>5,-5200</point>
+        <point>10,-4200</point>
+        <point>15,-3400</point>
+        <point>20,-2850</point>
+        <point>25,-2500</point>
+        <point>30,-2200</point>
+        <point>35,-1900</point>
+        <point>40,-1600</point>
+        <point>45,-1350</point>
+        <point>50,-1100</point>
+        <point>55,-850</point>
+        <point>60,-650</point>
+        <point>65,-500</point>
+        <point>70,-400</point>
+        <point>75,-100</point>
         <point>80,0</point>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     </reference>
