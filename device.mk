@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
 # Regional properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24926/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24926/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.EU.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.IN.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.NA.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.ROW.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.default.prop
 
 # Sensors

@@ -1,9 +1,7 @@
+import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
+
 # Bluetooth
 bluetooth.device.default_name=OnePlus Pad 3
-
-# Device info
-ro.product.odm.name=OPD2415EEA
-ro.vendor.oplus.regionmark=EUEX
 
 # USB
 vendor.usb.product_string=OnePlus Pad 3
