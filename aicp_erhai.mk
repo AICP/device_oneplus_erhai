@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from erhai device
 $(call inherit-product, device/oneplus/erhai/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common Aicp stuff.
+$(call inherit-product, vendor/aicp/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := lineage_erhai
+PRODUCT_NAME := aicp_erhai
 PRODUCT_DEVICE := erhai
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -29,3 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OPD2415 \
     SystemDevice=OP6190L1 \
     SystemName=OPD2415
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Moshe Barash (mosimchah)"

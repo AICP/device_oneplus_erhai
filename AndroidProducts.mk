@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_erhai.mk
+    $(LOCAL_DIR)/aicp_erhai.mk
