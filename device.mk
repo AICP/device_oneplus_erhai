@@ -43,6 +43,7 @@ $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AB,true)
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
+    OPlusPenResTarget \
     OPlusSystemUIResTarget
 
 # Power
