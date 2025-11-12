@@ -44,6 +44,8 @@ $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AB,true)
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusPenResTarget \
+    OPlusSettingsProviderResTarget_CN \
+    OPlusSettingsProviderResTarget_ROW \
     OPlusSystemUIResTarget
 
 # Power
