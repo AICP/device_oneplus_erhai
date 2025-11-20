@@ -5,4 +5,4 @@
 123224/1 https://gerrit.aicp-rom.com frameworks/base true
 123225/2 https://gerrit.aicp-rom.com frameworks/base true
 123227/2 https://gerrit.aicp-rom.com frameworks/base true
-123226/1 https://gerrit.aicp-rom.com vendor/aicp-apps/AicpExtras true
+123226/2 https://gerrit.aicp-rom.com vendor/aicp-apps/AicpExtras true
