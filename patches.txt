@@ -6,3 +6,6 @@
 
 #haste
 123196/3 https://gerrit.aicp-rom.com frameworks/base true
+
+#stats
+123319/1 https://gerrit.aicp-rom.com vendor/aicp true
