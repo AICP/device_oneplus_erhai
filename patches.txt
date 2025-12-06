@@ -1,8 +1,0 @@
-#Sensor_block
-123226 https://gerrit.aicp-rom.com vendor/aicp-apps/AicpExtras
-
-#ae testing
-123315 https://gerrit.aicp-rom.com vendor/aicp-apps/AicpExtras
-
-#haste
-123196/3 https://gerrit.aicp-rom.com frameworks/base true
