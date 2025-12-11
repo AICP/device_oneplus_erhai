@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Pad 3 (OPD2415_16.0.0.211(EX01)).
+## are from OnePlus Pad 3 (OPD2415_16.0.1.302(EX01)).
 
 # ACDB
 odm/etc/acdbdata/sia/acdb_cal.acdb
@@ -880,6 +880,8 @@ odm/lib64/libc++_shared.so
 odm/lib64/libcam.odnn.interface.so
 odm/lib64/libcam.oplus.3a.v2.so
 odm/lib64/libcam.oplus.3a.v3.so
+odm/lib64/libcreateFDCLitecachebin.so
+odm/lib64/libcreateFDCcachebin.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcreatebinForBaseretouch.so
 odm/lib64/libcreatebinForFaceretouch.so
