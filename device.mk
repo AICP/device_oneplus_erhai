@@ -35,7 +35,8 @@ PRODUCT_PACKAGES += \
 
 # Input
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/Vendor_22d9_Product_3869.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/Vendor_22d9_Product_3869.idc
+    $(LOCAL_PATH)/configs/idc/Vendor_22d9_Product_3869.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/Vendor_22d9_Product_3869.idc \
+    $(LOCAL_PATH)/configs/idc/touchpanel_pen.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/touchpanel_pen.idc
 
 # Keylayout
 PRODUCT_COPY_FILES += \
