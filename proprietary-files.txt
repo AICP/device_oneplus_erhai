@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Pad 3 (OPD2415_16.0.1.302(EX01)).
+## are from OnePlus Pad 3 (OPD2415_16.0.3.500(EX01)).
 
 # ACDB
 odm/etc/acdbdata/sia/acdb_cal.acdb
@@ -378,6 +378,9 @@ odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
 odm/etc/camera/gesture/tt_hand_shouxinbei_v1.0.model
+odm/etc/camera/meishe_lut/800t_blues.bin
+odm/etc/camera/meishe_lut/800t_hdr.bin
+odm/etc/camera/meishe_lut/800t_sdr.bin
 odm/etc/camera/meishe_lut/ByYo3If
 odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
 odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
@@ -401,11 +404,13 @@ odm/etc/camera/meishe_lut/Winterfell.cube.rgb.bin
 odm/etc/camera/meishe_lut/black_gold.bin
 odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
 odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/ceremony.rgba.bin
 odm/etc/camera/meishe_lut/city.cube.rgb.bin
 odm/etc/camera/meishe_lut/cola.bin
 odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/drjw1994.bin
 odm/etc/camera/meishe_lut/drjw2010.bin
+odm/etc/camera/meishe_lut/festival.rgba.bin
 odm/etc/camera/meishe_lut/fuji-cc-high.bin
 odm/etc/camera/meishe_lut/fuji-cc-low.bin
 odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin
@@ -457,6 +462,7 @@ odm/etc/camera/meishe_lut/red-red.cube.rgb.bin
 odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin
 odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin
 odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin
+odm/etc/camera/meishe_lut/vibe.rgba.bin
 odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin
@@ -1378,6 +1384,7 @@ odm/etc/sensor/config/pakala_mtp_bmi3x0_0.json
 odm/etc/sensor/config/pakala_mtp_freefall.json
 odm/etc/sensor/config/pakala_mtp_motion_recognition.json
 odm/etc/sensor/config/pakala_mtp_mxg4300_0.json
+odm/etc/sensor/config/pakala_mtp_pedometer_minute.json
 odm/etc/sensor/config/sns_gyro_cal.json
 odm/etc/sensor/sensor_config.json
 vendor/etc/sensors/config/json.lst
