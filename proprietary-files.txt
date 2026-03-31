@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Pad 3 (OPD2415_16.0.3.500(EX01)).
+## are from OnePlus Pad 3 (OPD2415_16.0.5.700(EX01)).
 
 # ACDB
 odm/etc/acdbdata/sia/acdb_cal.acdb
