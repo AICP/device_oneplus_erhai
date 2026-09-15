@@ -57,17 +57,19 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,qtipower,tap_to_wake_node,/proc/touchpanel/double_tap_enable)
 
 # Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24926/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24926/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.ROW.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24976/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24976/build.default.prop
+REGIONAL_PROP_FILES := $(wildcard $(LOCAL_PATH)/properties/*/*.prop)
+
+PRODUCT_COPY_FILES += $(foreach f,$(REGIONAL_PROP_FILES), \
+    $(f):$(TARGET_COPY_OUT_ODM)/etc/$(patsubst $(LOCAL_PATH)/properties/%,%,$(f)) \
+    $(f):$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/etc/$(patsubst $(LOCAL_PATH)/properties/%,%,$(f)))
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# SSG
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ssg/sec_channel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/sec_channel.rc
 
 # Wireless pen
 PRODUCT_PACKAGES += \
